@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.bee-icon {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.selects select {
+    margin: 0 10px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin: 0 10px;
+}
+
+.icon img {
+    width: 20px;
+    height: auto;
+}
+
+.signup-btn {
+    background-color: #f39c12;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.signup-btn:hover {
+    background-color: #e67e22;
+}
+
+.why-choose {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.why-choose h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #f39c12; /* Yellow color */
+    text-decoration: underline;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.box h3 {
+    margin: 15px 0 10px;
+    font-size: 20px;
+}
+
+.box p {
+    font-size: 16px;
+    color: #555;
+}
+
+.fresh-from-vlog {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.fresh-from-vlog h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.vlog-intro {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.vlog-boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.vlog-box {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+}
+
+.vlog-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.vlog-box h3 {
+    margin: 15px 0 10px;
+    font-size: 20px;
+}
+
+.vlog-box p {
+    font-size: 16px;
+    color: #555;
+}
+.create-account {
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.create-account h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.signin-link {
+    margin-bottom: 20px;
+}
+
+.signin-link a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.signin-link a:hover {
+    text-decoration: underline;
+}
+
+.account-form {
+    background-color: #f9e3a0; /* Yellow background */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.account-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.account-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background-color: #3498db; /* Blue background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #2980b9;
+}
+
+    </style>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="path-to-your-bee-icon.png" alt="Bee Icon" class="bee-icon">
+            <span class="logo-text">CreditBee</span>
+        </div>
+        <div class="selects">
+            <select>
+                <option>Loan</option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+            </select>
+            <select>
+                <option>Calculator</option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+            </select>
+        </div>
+        <div class="links">
+            <a href="#">Credit Report</a>
+            <a href="#">Refer and Earn</a>
+        </div>
+        <div class="icons">
+            <a href="#" class="icon heart-icon">
+                <img src="path-to-heart-icon.png" alt="Wishlist">
+            </a>
+            <a href="#" class="icon tray-icon">
+                <img src="path-to-tray-icon.png" alt="Tray">
+            </a>
+        </div>
+        <button class="signup-btn">Sign Up</button>
+    </nav>
+
+    <section class="why-choose">
+        <h2>Why choose <span class="highlight">KreditBee</span>?</h2>
+        <div class="boxes">
+            <div class="box">
+                <img src="path-to-image1.jpg" alt="Feature 1">
+                <h3>Feature 1</h3>
+                <p>Description for feature 1. Highlight key benefits or aspects of the feature.</p>
+            </div>
+            <div class="box">
+                <img src="path-to-image2.jpg" alt="Feature 2">
+                <h3>Feature 2</h3>
+                <p>Description for feature 2. Highlight key benefits or aspects of the feature.</p>
+            </div>
+            <div class="box">
+                <img src="path-to-image3.jpg" alt="Feature 3">
+                <h3>Feature 3</h3>
+                <p>Description for feature 3. Highlight key benefits or aspects of the feature.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="fresh-from-vlog">
+        <h2>Fresh from the Vlog</h2>
+        <div class="vlog-boxes">
+            <div class="box">
+                <img src="path-to-vlog-image1.jpg" alt="Vlog 1">
+                <h3>Vlog Title 1</h3>
+                <p>Summary or description of the vlog content. Learn more about this topic in our latest video.</p>
+            </div>
+            <div class="box">
+                <img src="path-to-vlog-image2.jpg" alt="Vlog 2">
+                <h3>Vlog Title 2</h3>
+                <p>Summary or description of the vlog content. Discover key takeaways and insights.</p>
+            </div>
+            <div class="box">
+                <img src="path-to-vlog-image3.jpg" alt="Vlog 3">
+                <h3>Vlog Title 3</h3>
+                <p>Summary or description of the vlog content. Get informed about the latest trends and tips.</p>
+            </div>
+        </div>
+    </section>
+    <section class="create-account">
+        <h2>Create Account</h2>
+        <p class="signin-link">Already have an account? <a href="#">Sign In</a></p>
+        <form class="account-form">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="referral-code">Referral Code (Optional)</label>
+            <input type="text" id="referral-code" name="referral-code">
+            
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+</body>
+</html>
