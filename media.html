@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+</head>
+<body>
+    <style>
+        #container{
+            width: 90%;
+            height: 700px;
+            background-color: green;
+            border: 1px solid black;
+            margin: auto;
+        }
+        /* medium */
+        @media all and (min-width: 450px) and (max-width: 570px) {
+            #container{
+            background-color: palevioletred;
+            }
+        }
+        @media all and (min-width: 300px) and (max-width: 449px) {
+            #container{
+            background-color: blueviolet;
+            }
+        }
+    </style>
+   <div id="container"> </div>
+</body>
+</html>
